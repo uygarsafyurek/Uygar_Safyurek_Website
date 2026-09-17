@@ -1,0 +1,24 @@
+:root {
+  --ink: #111315;
+  --paper: #e9e1d1;
+  --blue: #6d9bc3;
+  --blue-light: #9ebddd;
+  --cream: #f3eadb;
+  --line: rgba(233, 225, 209, 0.42);
+  --sans: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --display: 'Arial Black', Impact, sans-serif;
+  --mono: 'Courier New', monospace;
+  font: 16px/1.35 var(--sans);
+  letter-spacing: 0;
+  color: var(--paper);
+  background: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--ink); }
+#root { width: 100%; }
